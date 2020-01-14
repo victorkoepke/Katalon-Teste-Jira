@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Faz login no Jira</description>
+   <description>Faz login no Jira
+
+
+Parte do teste do Jira</description>
    <name>Login Test</name>
    <tag></tag>
    <comment></comment>

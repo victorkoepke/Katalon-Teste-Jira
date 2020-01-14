@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Testando fazer Login no Github</description>
+   <description>Faz login no Github</description>
    <name>Login Test</name>
    <tag></tag>
    <comment></comment>

@@ -38,14 +38,14 @@
       <matchCondition>equals</matchCondition>
       <name>data-hydro-click</name>
       <type>Main</type>
-      <value>{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;4AE7:4CA4:1ABF8D:258134:5E1E333A&quot;,&quot;originating_url&quot;:&quot;https://github.com/&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}</value>
+      <value>{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;94D5:2DE8:17805:230F0:5E1E351D&quot;,&quot;originating_url&quot;:&quot;https://github.com/&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-hydro-click-hmac</name>
       <type>Main</type>
-      <value>0a61ae5192770fbff1975c9bda5f652f895856af2e9a62243a615621a64e42a3</value>
+      <value>8746ffb89a7b681a6aa14b92b1a8cbb15bba4355340597a3ae601866c6657e8f</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
