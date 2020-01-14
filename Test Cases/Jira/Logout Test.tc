@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Faz Logout no Jira
+
+parte do teste de Katalon</description>
+   <name>Logout Test</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3bd53763-547b-460e-88b7-a795c93555e2</testCaseGuid>
+</TestCaseEntity>

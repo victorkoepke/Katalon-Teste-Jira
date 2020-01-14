@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Faz login no Jira, vai para a parte de projetos, e verifica se &quot;Life Up&quot; está presente
+
+parte do teste de Katalon</description>
+   <name>Life up Test</name>
+   <tag>Katalon_test</tag>
+   <comment></comment>
+   <testCaseGuid>c789d52e-bea5-452c-85e9-b85974007e9e</testCaseGuid>
+</TestCaseEntity>
