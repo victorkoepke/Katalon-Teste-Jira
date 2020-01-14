@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>verifica se o repositorio Katalon Teste Jira está presente</description>
+   <name>Katalon Teste Jira Test</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e5413957-8abe-40c3-832d-ca52ccae9110</testCaseGuid>
+</TestCaseEntity>
