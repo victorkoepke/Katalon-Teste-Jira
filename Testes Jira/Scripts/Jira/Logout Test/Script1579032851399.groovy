@@ -16,19 +16,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Jira/Login Test'), [('username') : 'victor.koepke@oklgroup.net', ('password') : 'victor0912#'], 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://github.com/')
+WebUI.click(findTestObject('Object Repository/Jira Login/Page_Projects - Jira/span'))
 
-WebUI.click(findTestObject('Object Repository/Github/Page_The worlds leading software developmen_e309d9/a_Signin'))
+WebUI.click(findTestObject('Object Repository/Jira Login/Page_Projects - Jira/a_Log out'))
 
-WebUI.setText(findTestObject('Object Repository/Github/Page_Sign in to GitHub  GitHub/input_Username or email address_login'), 
-    GlobalVariable.username)
+WebUI.delay(3)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Github/Page_Sign in to GitHub  GitHub/input_Forgot password_password'), 
-    GlobalVariable.password)
+WebUI.verifyElementPresent(findTestObject('Jira Login/Page_Log in to continue - Log in with Atlas_6762ee/h5_Log in to your account'), 
+    0)
 
-WebUI.click(findTestObject('Object Repository/Github/Page_Sign in to GitHub  GitHub/input_Forgot password_commit'))
-
-WebUI.verifyElementPresent(findTestObject('Github/Page_GitHub/button_Sign out'), 0)
+WebUI.closeBrowser()
 

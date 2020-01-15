@@ -14,6 +14,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
@@ -26,7 +27,7 @@ WebUI.click(findTestObject('Object Repository/Jira Login/Page_Log in to continue
 
 WebUI.delay(1)
 
-WebUI.setEncryptedText(findTestObject('Jira Login/Page_Log in to continue - Log in with Atlas_6762ee/input_victorkoepkeoklgroupnet_password'), 
+WebUI.setText(findTestObject('Jira Login/Page_Log in to continue - Log in with Atlas_6762ee/input_victorkoepkeoklgroupnet_password'), 
     GlobalVariable.password)
 
 WebUI.click(findTestObject('Object Repository/Jira Login/Page_Log in to continue - Log in with Atlas_6762ee/span_Log in'))
@@ -38,8 +39,4 @@ WebUI.verifyElementPresent(findTestObject('Jira Login/Page_Atlassian  Start page
 WebUI.click(findTestObject('Object Repository/Jira Login/Page_Atlassian  Start page/div_Your products_sc-ifAKCX fswNNq'))
 
 WebUI.verifyElementPresent(findTestObject('Jira Login/Page_Projects - Jira/div_Recents'), 0)
-
-WebUI.click(findTestObject('Jira Login/Page_Projects - Jira/div_Projects'))
-
-WebUI.verifyElementPresent(findTestObject('Jira Login/Page_Projects - Jira/div_Life Up'), 0)
 

@@ -24,7 +24,7 @@ WebUI.click(findTestObject('Object Repository/Github/Page_The worlds leading sof
 WebUI.setText(findTestObject('Object Repository/Github/Page_Sign in to GitHub  GitHub/input_Username or email address_login'), 
     GlobalVariable.username)
 
-WebUI.setText(findTestObject('Object Repository/Github/Page_Sign in to GitHub  GitHub/input_Forgot password_password'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/Github/Page_Sign in to GitHub  GitHub/input_Forgot password_password'), 
     GlobalVariable.password)
 
 WebUI.click(findTestObject('Object Repository/Github/Page_Sign in to GitHub  GitHub/input_Forgot password_commit'))

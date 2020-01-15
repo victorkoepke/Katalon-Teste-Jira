@@ -26,7 +26,7 @@ WebUI.click(findTestObject('Object Repository/Jira Login/Page_Log in to continue
 
 WebUI.delay(1)
 
-WebUI.setEncryptedText(findTestObject('Jira Login/Page_Log in to continue - Log in with Atlas_6762ee/input_victorkoepkeoklgroupnet_password'), 
+WebUI.setText(findTestObject('Jira Login/Page_Log in to continue - Log in with Atlas_6762ee/input_victorkoepkeoklgroupnet_password'), 
     GlobalVariable.password)
 
 WebUI.click(findTestObject('Object Repository/Jira Login/Page_Log in to continue - Log in with Atlas_6762ee/span_Log in'))
